@@ -17,5 +17,5 @@ func main() {
 }
 
 func Hello(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(w, "Hello DOCKER!!")
+	fmt.Fprintln(w, "Hello from docker container!!")
 }
